@@ -20,11 +20,7 @@
      <div v-if="isOpen">
         <h1 class="text-4xl font-bold">🎉 Congrats! You've opened it 🎉</h1>
         <!-- show image gif I love you -->
-        <NuxtImg 
-          src="/images/i-love-u.gif" 
-          alt="Hey, ♥ I love you ♥" 
-          class="object-cover"  
-        />
+         <img src="/images/i-love-u.gif" alt="Hey, ♥ I love you ♥" class="object-cover" />
      </div>
   </div>
 </template>
