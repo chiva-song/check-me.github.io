@@ -9,6 +9,9 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  app: {
+    baseURL: '/check-me.github.io/', // Set this to match your GitHub Pages path
+  },
   modules: [
     '@nuxt/eslint',
     '@nuxt/fonts',
